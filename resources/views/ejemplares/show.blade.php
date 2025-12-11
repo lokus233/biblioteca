@@ -4,7 +4,7 @@
 
         <li class="list-row flex justify-between p-2">
             <div class="text-xl uppercase font-semibold opacity-60">Codigo ejemplar:</div>
-            <div class="text-xl uppercase font-semibold opacity-60">{{ $ejemplar->codigo ?? 'Sin codigo' }}</div>
+            <div class="text-xl uppercase font-semibold opacity-60">{{ $ejemplar->codigo }}</div>
         </li>
 
         <li class="list-row flex justify-between p-2">
